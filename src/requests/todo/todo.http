@@ -1,0 +1,25 @@
+###
+GET {{hostname}}/api/todo
+
+### getOne
+GET {{hostname}}/api/todo/2
+
+###
+POST {{hostname}}/api/todo
+Content-Type: application/json
+
+{
+  "title": "new Title"
+}
+
+###
+DELETE {{hostname}}/api/todo/1
+
+###
+PUT {{hostname}}/api/todo/2
+Content-Type: application/json
+
+{
+  "title": "some changed title",
+  "status": "pending"
+}

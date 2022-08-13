@@ -1,6 +1,6 @@
 import { Column, Entity, PrimaryGeneratedColumn } from 'typeorm';
 
-enum TodoStatuses {
+export enum TodoStatuses {
   pending = 'pending',
   finished = 'finished',
 }
